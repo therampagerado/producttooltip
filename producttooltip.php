@@ -184,7 +184,7 @@ class ProductToolTip extends Module
 						'type' => 'text',
 						'label' => $this->l('Period length'),
 						'desc' => $this->l('Set the reference period length.').'<br>'.
-							$this->l('For instance, if set to 30 minutes, display the number of visitors in the last 30 minutes.'),
+							$this->l('For instance, if set to 30 minutes, the module will display the number of visitors in the last 30 minutes.'),
 						'name' => 'PS_PTOOLTIP_LIFETIME',
 						'suffix' => $this->l('minutes'),
 						'values' => array(
@@ -221,7 +221,7 @@ class ProductToolTip extends Module
 					array(
 						'type' => 'switch',
 						'label' => $this->l('Added to a cart'),
-						'desc' => $this->l('If the product has not been ordered yet, display the last time the product has been added to a cart?'),
+						'desc' => $this->l('If the product has not been ordered yet, the module displays the last time the product has been added to a cart?'),
 						'name' => 'PS_PTOOLTIP_DATE_CART',
 						'values' => array(
 							array(
