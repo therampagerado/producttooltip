@@ -40,7 +40,7 @@ class ProductToolTip extends Module
 		$this->bootstrap = true;
 		parent::__construct();
 
-		$this->displayName = $this->l('Product tooltips');
+		$this->displayName = $this->l('Product Tooltips');
 		$this->description = $this->l('Shows information on a product page: how many people are viewing it, the last time it was sold and the last time it was added to a cart.');
 		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => '1.6.99.99');
 	}
