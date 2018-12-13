@@ -5,6 +5,7 @@ category: front office
 tags:
   - product page
   - statistics
+  - producttooltip
 description_short: Shows information on a product page: how many people are viewing it, the last time it was sold and the last time it was added to a cart.
 description: description.md
 images:
